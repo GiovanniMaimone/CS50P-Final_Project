@@ -5,15 +5,11 @@
 This app is designed to make users keep track of their macro nutrients and calories by storing information about the food they consume in a diary. The app will calculate the total intake of calories, protein, carbs and fats. Additionally users can generate a pdf report with all the food information provided, making easy to review and manage their diet.
 
 ## Features
-1. **User Features:**
-    - Food diary (pdf).
-    - Personalised headers.
-    - Macro nutrients calculation.
-
-2. **Code Features:**
-    - List of similar foods.
-    - Data base(csv) more than **8.000** diferent aliments.
-    - Stores the food diary for future use.
+1. **Food Logging:** Users can log the foods they eat throughout the day in a diary.
+2. **Automatic Calculation:** The app automatically calculates the total calories, proteins, carbohydrates, and fats for each day.
+3. **Food Suggestions:** I integrated the fuzzywuzzy library to handle cases where users may not remember or know the exact food name. The app suggests similar foods based on their input, making it more user-friendly.
+4. **Data Management:** All the logged data is saved in a JSON file, so users can return to their diary anytime without losing their progress.
+5. **PDF Reports:** The app generates PDF reports summarizing all the logged food and nutrition information, thanks to the fpdf library. This makes it easy for users to review and manage their diet.
 
 ## Dependencies
 1. **Python Standard Libraries:**
