@@ -1,5 +1,5 @@
 # NUTRITION APP
-## Video Demo:  <URL HERE>
+## Video Demo: https://youtu.be/_I6Mw9UCMpE
 ![alt text](final_project/project/images/image.png)
 ## Description
 This app is designed to make users keep track of their macro nutrients and calories by storing information about the food they consume in a diary. The app will calculate the total intake of calories, protein, carbs and fats. Additionally users can generate a pdf report with all the food information provided, making easy to review and manage their diet.
